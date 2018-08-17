@@ -9,7 +9,7 @@ button:focus, input:focus {
 }
 
 .btn {
-    background-color: #F08080;
+    background-color: tomato;
     border-radius: 2px;
     color: white;
     user-select: none;
@@ -81,8 +81,8 @@ h1 {
     font-size: 2.5rem;
     padding: 2rem 0 1rem;
     margin: 0;
-    color: #FFAFAF;
-    text-shadow: black 2px 1px 1px;
+    color: tomato;
+    text-shadow: darkgray 2px 1px 1px;
 }
 
 .searchbar {
