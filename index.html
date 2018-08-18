@@ -40,7 +40,7 @@
                     </div>
                     <div>
                         <h4 class="product-title">{{ item.title }}</h4>
-                        <p><strong>Price:</strong> <em>{{ price | currency }}</em></p>
+                        <p><strong>Price:</strong> {{ price | currency }}</p>
                         <button v-on:click="addItem(index)" class="add-to-cart btn">Add to cart</button>
                     </div>
                 </div>
@@ -72,11 +72,10 @@
 
     <!-- Scripts -->
     <script src="/reload/reload.js "></script>
-    <script src="node_modules/vue/dist/vue.js "></script>
+    <script src="node_modules/vue/dist/vue.min.js"></script>
     <script src="node_modules/vue-resource/dist/vue-resource.js "></script>
     <script src="node_modules/scrollmonitor/scrollMonitor.js "></script>
     <script type="text/javascript " src="public/script.js "></script>
-
 </body>
 
 </html>
